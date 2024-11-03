@@ -4,6 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"value": "pramodgit1"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://pramodadfadlsg2.dfs.core.windows.net/"
 		}
 	}
 }
