@@ -1,0 +1,9 @@
+{
+	"name": "pramodgit1",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fff3b88d-c22f-4d91-a7d4-c6ae6fb7f6c3",
+		"tenantId": "c8c6dd35-871f-4f30-85ac-6535f3982514"
+	}
+}
