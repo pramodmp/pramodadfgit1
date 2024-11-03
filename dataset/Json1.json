@@ -1,0 +1,48 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Book1.json",
+				"folderPath": "input",
+				"fileSystem": "pramodcon1"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"Server Name": {
+					"type": "string"
+				},
+				"Instance Name": {
+					"type": "string"
+				},
+				"Version Build": {
+					"type": "string"
+				},
+				"Edition": {
+					"type": "string"
+				},
+				"Service Pack": {
+					"type": "string"
+				},
+				" SQL Collation": {
+					"type": "string"
+				},
+				"CPUs": {
+					"type": "string"
+				},
+				"RAM (MB)": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
